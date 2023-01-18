@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Tyler, The Creator</title>
+    <link rel="stylesheet" href="css/global.css" />
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a href="index.html">Tyler, The Creator </a>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="biography.html">Biography</a>
+                </li>
+                <li>
+                    <a href="discography.html">Discography</a>
+                </li>
+                <li>
+                    <a href="tours.html">Tours</a>
+                </li>
+                <li>
+                    <a href="merchandising.html">Merchandising</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <form method="post" action="http://10.0.217.254:8080/process-form.php" novalidate></form>
+
+
+    <main>
+        <section>
+            <h2>Contact form</h2>
+            <fieldset>
+                <legend>Personal data</legend>
+                <p>
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="name">
+                                Name:
+                                <strong>
+                                    <abbr title="required">*</abbr>
+                                </strong>
+                            </label>
+                            <input type="text" id="name" name="user_name">
+                        </li>
+                        <li>
+                            <label for="subject">
+                                Subject:
+                                <strong>
+                                    <abbr title="required">*</abbr>
+                                </strong>
+                            </label>
+                            <input type="subject" id="subject" name="user_subject">
+                        </li>
+                        <li>
+                            <label for="sex">
+                                Sex:
+                                <strong>
+                                    <abbr title="required">*</abbr>
+                                </strong>
+                            </label>
+                            <input type="radio" id="male" name="drone" value="male">
+                            <label for="male">Male</label>
+
+                            <input type="radio" id="female" name="drone" value="female">
+                            <label for="female">Female</label>
+
+                            <input type="radio" id="non-binary" name="drone" value="non-binary">
+                            <label for="non-binary">Non-binary</label>
+                        </li>
+                    </ul>
+                </form>
+                </p>
+            </fieldset>
+            <p></p>
+            <p></p>
+            <fieldset>
+                <legend>Information request</legend>
+                <li>
+                    <label for="language">
+                        Preferred language:
+                        <strong>
+                            <abbr title="required">*</abbr>
+                        </strong>
+                    </label>
+                    <input type="checkbox" id="English" name="" value="English" unchecked>
+                    <label for="female">English</label>
+                    <input type="checkbox" id="Castillian" name="" value="Castillian" unchecked>
+                    <label for="female">Castillian</label>
+                    <input type="checkbox" id="Valencian" name="" value="Valencian" unchecked>
+                    <label for="female">Valencian</label>
+                </li>
+                <ul>
+                    <p>message:</p>
+                    <label for="message"></label>
+                    <textarea id="message" name="user_message"></textarea>
+                </ul>
+                <p>
+                    <button type="submit">Send form</button>
+                    <button type="reset">Reset</button>
+                </p>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Website for educational purposes. Its content is based on Wikipedia
+            article: Tyler, The Creator
+            <a href="https://en.wikipedia.org/wiki/Tyler,_the_Creator">[1]
+            </a>
+        </p>
+        <p>
+            Wikipedia contributors. (2022, December 6). Tyler, The Creator. In Wikipedia The
+            Free Encyclopedia . Retrieved 14:51, December 6, 2022, from
+            https://en.wikipedia.org/wiki/Tyler,_the_Creator
+        </p>
+    </footer>
+</body>
+
+</html>
